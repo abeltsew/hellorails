@@ -24,6 +24,8 @@ default: &default
 development:
   <<: *default
   database: hellorails_development
+  username: postgres
+  password: 'password Here'
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
